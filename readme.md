@@ -4,15 +4,19 @@ Follow from tutorial [Dockerize laravel](https://www.digitalocean.com/community/
 
 ## Pre-requisite
 Docker
+
 Docker compose
 
 ## Installation
 git clone the repository <project_name>
+
 docker run --rm -v $(pwd):/app composer install
+
 sudo chown -R $USER:$USER <project_name>
 
 ## Usage
 cd <project_name>
+
 docker compose up -d
 
 ## Security Vulnerabilities
